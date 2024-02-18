@@ -2,6 +2,9 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+![mobile](https://github.com/miteshp98/profile-card-component-main/assets/145320555/eff786d2-a580-457a-994e-a9addafa615f)
+
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -26,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/miteshp98/profile-card-component-main)
+- Live Site URL: [live site URL](https://miteshp98.github.io/profile-card-component-main/)
 
 ## My process
 
