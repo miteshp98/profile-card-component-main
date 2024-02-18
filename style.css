@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Darkcyan: hsl(185, 75%, 39%);
+  --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  --Darkgrayishblue: hsl(227, 10%, 46%);
+
+  --Darkgray: hsl(0, 0%, 59%);
+
+  --font: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-attachment: fixed;
+  background-color: var(--Darkcyan);
+  min-height: 100dvh;
+}
+
+.profile-card-section {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font);
+}
+
+.profile-card-container {
+  width: 400px;
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 139, 139, 0.701);
+}
+
+.image-name-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 7em;
+}
+
+.image-name-cont > img {
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.image-name-cont > h1 {
+  color: var(--Verydarkdesaturatedblue);
+}
+
+.image-name-cont > h1 > span {
+  color: var(--Darkgray);
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.image-name-cont > p {
+  color: var(--Darkgray);
+}
+
+.follower-cont {
+  border-top: 1px solid rgba(0, 0, 0, 0.113);
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 1em 1em 0;
+  margin: 1em 0;
+}
+
+.number > p {
+  font-weight: 700;
+  color: var(--Verydarkdesaturatedblue);
+  font-size: 1.4em;
+}
+
+.number > span {
+  color: var(--Darkgray);
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-card-container {
+    width: 380px;
+  }
+}
